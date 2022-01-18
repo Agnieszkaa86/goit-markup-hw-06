@@ -1,0 +1,224 @@
+:root{
+    --main-font: font-family: 'Roboto', sans-serif;
+    --secondary-font:font-family: 'Raleway', sans-serif;
+    --main-color:#2196F3;
+}
+body{
+
+    font-family: var(--main-font);
+}
+
+/* ########HEADER############## */
+
+.navigation-logo-second-a{
+
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+  
+}
+.navigation-logo-first,
+.navigation-list-link-a{
+    
+    color: #2196F3;
+}
+.navigation-logo-second-a,
+.navigation-list-link-a1{
+   
+    color: #212121;
+
+}
+.navigation-list-link{
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: #212121;
+
+}
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.address-list-link:hover,
+.address-list-link:focus{
+
+color:var(--main-color);
+}
+
+.address-list-link-b{
+    font-size: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: #757575
+}
+.navigation-list-link-a,
+.address-list-link-a{
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+    
+}
+/* ########END HEADER ##########*/
+
+/* ########MAIN ############ */
+
+.section{
+   
+    background: #2F303A;
+}
+   
+.id-p{
+ 
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    color: #FFFFFF;
+
+}
+
+
+.modal-btn-title{
+    
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    cursor:pointer;
+    color:#FFFFFF;
+    background-color: #2196F3
+}
+
+.lorem-ipsum{
+    
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    color:#212121;
+}
+
+.lorem-ipsum-description{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.715;
+    letter-spacing: 0.03em;
+    color:#757575;
+}
+.about-us,
+.about-team{
+    
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.member-name{
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+
+}
+
+.member-position{
+
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1,187;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* ########END MAIN ############ */
+/* ########FOOTER ############ */
+
+.footer{
+
+    background: #2F303A;
+
+}
+
+.navigation-logo-first{
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;letter-spacing: 0.03em;
+    color: #2196F3; 
+}
+
+.navigation-logo-second{
+   
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;letter-spacing: 0.03em;
+    color :#FFFFFF; 
+
+}
+
+.address-company{
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.715;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.address-list-link{
+
+font-weight: normal;
+font-size: 14px;
+line-height: 1.715;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+/* ########END FOOTER ###########*/
+
+.modal-btn{
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background-color: #FFFFFF;  ;
+}
+
+.modal-btn-a{
+    color: #FFFFFF;  
+    background-color: var(--main-color);
+}
+.sites-name{
+
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2.000;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.sites-kind{
+
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
