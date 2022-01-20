@@ -9,27 +9,34 @@ body{
 }
 
 /* ########HEADER############## */
-
-.navigation-logo-second-a{
-
+.navigation-logo-first,
+.navigation-logo-second-a
+.navigation-logo-second-a1{
+    
+    font-family: Raleway;
+    font-style: normal;
     font-weight: bold;
     font-size: 26px;
-    line-height: 1.192;
-    letter-spacing: 0.03em;
-  
+    line-height: 1.192;letter-spacing: 0.03em;
+
 }
 .navigation-logo-first,
-.navigation-list-link-a{
+.navigation-list-link-a,
+.navigation-list-link-b1{
     
-    color: #2196F3;
+    color: #2196F3 
 }
-.navigation-logo-second-a,
-.navigation-list-link-a1{
+
+
+.navigation-list-link-b,
+.navigation-list-link-c
+.navigation-logo-second-a1{
    
     color: #212121;
 
 }
-.navigation-list-link{
+.navigation-list-link,
+.navigation-list-link-a{
 
     font-weight: 500;
     font-size: 14px;
@@ -73,12 +80,15 @@ color:var(--main-color);
     background: #2F303A;
 }
    
-.id-p{
+.btn{
  
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.364;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: #FFFFFF;
 
 }
@@ -90,6 +100,9 @@ color:var(--main-color);
     font-size: 16px;
     line-height: 1.875;
     cursor:pointer;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
     color:#FFFFFF;
     background-color: #2196F3
 }
@@ -100,6 +113,7 @@ color:var(--main-color);
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     color:#212121;
 }
 
@@ -150,26 +164,26 @@ color:var(--main-color);
     background: #2F303A;
 
 }
-
-.navigation-logo-first{
-
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.192;letter-spacing: 0.03em;
-    color: #2196F3; 
+.navigation-list-item-a{
+    color: #FFFFFF ;
 }
 
-.navigation-logo-second{
-   
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.192;letter-spacing: 0.03em;
-    color :#FFFFFF; 
+.navigation-logo-second-a{
 
+    color: #FFFFFF;
+
+}
+
+.navigation-list-item-a,
+.navigation-list-item{
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    
 }
 
 .address-company{
@@ -181,13 +195,13 @@ color:var(--main-color);
     color: #FFFFFF;
 }
 
-.address-list-link{
+.address-list-link-a3{
 
-font-weight: normal;
-font-size: 14px;
-line-height: 1.715;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
 /* ########END FOOTER ###########*/
 
