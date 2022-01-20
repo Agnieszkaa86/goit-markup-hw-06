@@ -1,14 +1,16 @@
 :root{
-    --main-font: font-family: 'Roboto', sans-serif;
-    --secondary-font:font-family: 'Raleway', sans-serif;
-    --main-color:#2196F3;
+    
+    --main-font: font-family'Roboto', sans-serif;
+    --secondary-font: font-family 'Raleway', sans-serif;
+    --main-color: #2196F3 ;
 }
+
 body{
-
-    font-family: var(--main-font);
+    font-family: var (--main-font);
+    
 }
+/* ########HEADER############*/
 
-/* ########HEADER############## */
 .navigation-logo-first,
 .navigation-logo-second-a
 .navigation-logo-second-a1{
@@ -17,7 +19,8 @@ body{
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
-    line-height: 1.192;letter-spacing: 0.03em;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
 
 }
 .navigation-logo-first,
@@ -35,25 +38,31 @@ body{
     color: #212121;
 
 }
-.navigation-list-link,
-.navigation-list-link-a{
+a {text-decoration: none;}
+
+.navigation-list-link-a,
+.navigation-list-link-b,
+.navigation-list-link-c,
+.navigation-list-link-a1
+.navigation-list-link-b1{
+
 
     font-weight: 500;
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.02em;
-    color: #212121;
+
 
 }
 .navigation-list-link:hover,
-.navigation-list-link:focus,
-.address-list-link:hover,
-.address-list-link:focus{
+.navigation-list-link:focus{
+    
+    color:var(--main-color)
 
-color:var(--main-color);
 }
 
-.address-list-link-b{
+.address-list-item-b
+.address-list-item-b1{
     font-size: normal;
     font-weight: 500;
     font-size: 14px;
@@ -94,7 +103,7 @@ color:var(--main-color);
 }
 
 
-.modal-btn-title{
+.modal-btn-a{
     
     font-weight: bold;
     font-size: 16px;
@@ -103,8 +112,8 @@ color:var(--main-color);
     display: flex;
     align-items: center;
     letter-spacing: 0.06em;
-    color:#FFFFFF;
-    background-color: #2196F3
+
+
 }
 
 .lorem-ipsum{
@@ -164,17 +173,13 @@ color:var(--main-color);
     background: #2F303A;
 
 }
-.navigation-list-item-a{
-    color: #FFFFFF ;
-}
+
 
 .navigation-logo-second-a{
 
     color: #FFFFFF;
 
 }
-
-.navigation-list-item-a,
 .navigation-list-item{
     
     font-weight: 500;
@@ -195,7 +200,8 @@ color:var(--main-color);
     color: #FFFFFF;
 }
 
-.address-list-link-a3{
+.address-list-link-a3,
+.address-list-link-a4{
 
     font-weight: normal;
     font-size: 14px;
@@ -205,15 +211,14 @@ color:var(--main-color);
 }
 /* ########END FOOTER ###########*/
 
-.modal-btn{
+.modal-btn-bb{
 
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
-    background-color: #FFFFFF;  ;
+
 }
 
 .modal-btn-a{
