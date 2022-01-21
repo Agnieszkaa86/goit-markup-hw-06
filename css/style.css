@@ -1,18 +1,18 @@
 :root{
     
-    --main-font: font-family'Roboto', sans-serif;
-    --secondary-font: font-family 'Raleway', sans-serif;
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font:'Raleway', sans-serif;
     --main-color: #2196F3 ;
 }
 
 body{
-    font-family: var (--main-font);
+        font-family: var(--main-font);
     
 }
 /* ########HEADER############*/
 
 .navigation-logo-first,
-.navigation-logo-second-a
+.navigation-logo-second-a,
 .navigation-logo-second-a1{
     
     font-family: Raleway;
@@ -24,62 +24,44 @@ body{
 
 }
 .navigation-logo-first,
-.navigation-list-link-a,
-.navigation-list-link-b1{
+.navigation-list-link-blue{
     
     color: #2196F3 
 }
 
 
-.navigation-list-link-b,
-.navigation-list-link-c
+.navigation-list-link,
 .navigation-logo-second-a1{
    
     color: #212121;
-
 }
 a {text-decoration: none;}
 
-.navigation-list-link-a,
-.navigation-list-link-b,
-.navigation-list-link-c,
-.navigation-list-link-a1
-.navigation-list-link-b1{
-
+.navigation-list-link,
+.navigation-list-link-blue,
+.address-list-link{
 
     font-weight: 500;
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.02em;
-
 
 }
 .navigation-list-link:hover,
-.navigation-list-link:focus{
+.navigation-list-link:focus,
+.address-list-link:hover,
+.address-list-link:focus,
+.navigation-list-link-blue:hover,
+.navigation-list-link-blue:focus{
+
     
     color:var(--main-color)
-
 }
-
-.address-list-item-b
-.address-list-item-b1{
-    font-size: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.143;
-    letter-spacing: 0.02em;
+.address-list-link{
+    
     color: #757575
 }
-.navigation-list-link-a,
-.address-list-link-a{
-    
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.143;
-    letter-spacing: 0.02em;
-    color: #2196F3;
-    
-}
+
 /* ########END HEADER ##########*/
 
 /* ########MAIN ############ */
@@ -88,32 +70,41 @@ a {text-decoration: none;}
    
     background: #2F303A;
 }
-   
 .btn{
- 
-    font-style: normal;
+
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.364;
+    line-height: 60px;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+}   
 
-}
+.modal-btn-order{
 
-
-.modal-btn-a{
-    
     font-weight: bold;
     font-size: 16px;
     line-height: 1.875;
-    cursor:pointer;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: var(--main-color);
+}
+.modal-btn:hover,
+.modal-btn:focus{
+    color: #FFFFFF;
+    background: var(--main-color)
+}
 
-
+.modal-btn{
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    color: #212121;
+    background: #F5F4FA;
 }
 
 .lorem-ipsum{
@@ -143,7 +134,10 @@ a {text-decoration: none;}
     letter-spacing: 0.03em;
     color: #212121;
 }
+.team{
 
+    background-color:#F5F4FA;
+}
 .member-name{
     
     font-weight: 500;
@@ -174,7 +168,6 @@ a {text-decoration: none;}
 
 }
 
-
 .navigation-logo-second-a{
 
     color: #FFFFFF;
@@ -185,46 +178,43 @@ a {text-decoration: none;}
     font-weight: 500;
     font-size: 16px;
     line-height: 1.625;
-    text-align: center;
     letter-spacing: 0.03em;
-    
     
 }
 
 .address-company{
 
+    font-family: Roboto;
+    font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 1.715;
+    line-height: 1.714;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 
-.address-list-link-a3,
-.address-list-link-a4{
+.address-list-item-active:hover,
+.address-list-item-active:focus,
+.address-list-link-number:hover,
+.address-list-link-number:focus{
 
+    color: var(--main-color)
+
+}
+
+.address-list-item-active,
+.address-list-link-number{
+
+    font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.714;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+
 }
 /* ########END FOOTER ###########*/
 
-.modal-btn-bb{
-
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.03em;
-
-}
-
-.modal-btn-a{
-    color: #FFFFFF;  
-    background-color: var(--main-color);
-}
 .sites-name{
 
     font-weight: bold;
