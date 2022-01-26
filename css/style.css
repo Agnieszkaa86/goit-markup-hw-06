@@ -224,24 +224,6 @@ a {
    
 }
 
-.modal-btn:focus
-.modal-btn:hover{
-    color: #FFFFFF;
-    background: var(--main-color)
-}
-
-.modal-btn{
-
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.625;
-    text-align: center;
-    letter-spacing: 0.03em;
-    cursor: pointer;
-    color: #212121;
-    background: #F5F4FA;
-}
-
     
 
 
@@ -375,13 +357,11 @@ a {
 }
 
 
-.address-list-item:not(:last-child){
+.address-list-item::not(:last-child){
     padding-bottom: 9px;
 }
 
-.address-list-item:last-child{
-    padding-bottom: 60px;
-}
+
 .street{
 
     font-style: normal;
@@ -389,7 +369,7 @@ a {
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: #ffffff;
-    padding: 20px;
+    padding: 20px 20px 20px 0;
 }
 
 .address-list-item:hover,
@@ -413,6 +393,56 @@ a {
 
 }
 /* ########END FOOTER ###########*/
+
+.menu-list{
+    display:flex;
+    justify-content: center;
+}
+.menu-list-item{
+    padding-top:94px;
+}
+.menu-list-item:not(:last-child){
+    margin-right:8px;
+    padding-bottom: 34px;
+}
+.icons-list{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.icons-list-item::not(nth-child(2n)){
+    margin-right:30px;
+}
+.icons-list-item{
+    margin-bottom: 30px;}
+
+.icons-list-item{    
+    background-color: #fff;
+}
+.icons-list-border{
+    height: 404px;
+    border: 1px solid #eee;
+}
+
+.modal-btn:focus,
+.modal-btn:hover{
+    color: #FFFFFF;
+    background: var(--main-color)
+}
+
+.modal-btn{
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    color: #212121;
+    background: #F5F4FA;
+}
+
+
 
 .sites-name{
 
