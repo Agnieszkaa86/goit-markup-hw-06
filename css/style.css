@@ -57,7 +57,7 @@ a {
 }
 
 .section{
-    padding-top: 94px;
+  
     padding-bottom: 94px;
 }
  
@@ -182,15 +182,18 @@ a {
 .mail-list-link,
 .phone-number-list-link{
     
-    color: #757575
+    color: #75757575;
 }
 
+        
+        
 .section-btn{
     
     background: #2F303A;
     height: 600px;
-   
+
 }
+
 .btn{
 
     font-weight: 900;
@@ -286,7 +289,7 @@ a {
 
 .our-team-list{
 	display: flex;
-	justify-content: space-between;
+    justify-content: space-between;
 }
 .our-team-list-item{
 
@@ -331,8 +334,8 @@ a {
     height: 252px;
 
 }
-
 .footer .container{
+
     padding-top: 60px;
 }
 
@@ -420,8 +423,8 @@ a {
     margin-bottom: 30px;
     background-color: #fff;
 }
-.icons-list-border{
-    border: 1px solid rgb(141, 128, 128);
+.icons-list-sites-border{
+    border: 1px solid #eeeeee;
 }
 
 .modal-btn:focus,
@@ -462,6 +465,8 @@ a {
     line-height: 1.875;
     letter-spacing: 0.03em;
     color: #757575;
+    padding-top: 4px;
     padding-bottom: 20px;
     padding-left: 24px;
+    
 }
