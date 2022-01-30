@@ -184,17 +184,29 @@ a {
     
     color: #75757575;
 }
-
+.envelope-icon{
+    width: 16px;
+    height:12px;
+    margin-right: 10px;
+    fill: currentColor;
+}
+.smartphone-icon{
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    fill: currentColor;
+}
 .section-btn{
-    
-    background: #2F303A;
     height: 600px;
+    background-color: #2F303A;
+    margin: 0 auto;
     background-image: linear-gradient( 
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
-    url("images/tlo.jpg");
+        url("../images/tlo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 .btn{
 
@@ -229,20 +241,21 @@ a {
    
 }
 
-    
-
-
 
 /* ########END HEADER ##########*/
 
 /* ########MAIN ############ */
-
-.atributes-list{
+.atributes-section{
     
-    display: flex;
+    padding-top: 94px;
+    padding-bottom: 0px;
+}
+.artibutes-list {
+    display:flex;
+    
 }
 
-.atributes-list-item-header{
+.atributes-list-item-title{
     
     color:#212121;
     font-weight: 700;
@@ -273,6 +286,7 @@ a {
 .about-img-list-item-img{
     margin-right: 39px;
 }
+
 .about-us-header{
     
     padding-top: 94px;
@@ -297,7 +311,11 @@ a {
 .our-team-list-item{
 
     background-color: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+		0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
 }
+
 .team-header{
     padding-bottom: 50px;
     font-weight: 700;
@@ -326,6 +344,34 @@ a {
     letter-spacing: 0.03em;
     color:  #757575;
     padding-bottom: 30px;
+}
+.socials-list
+{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+.socials-list-link {
+	display: flex;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	padding: 12px;
+    align-items: center;
+	justify-content: center;
+}
+.socials-list-link:hover,
+.socials-list-link:focus{
+    background-color: #2196f3;
+    fill: #fff;
+}
+
+.socials-icon {
+	width: 20px;
+	height: 20px;
+	
 }
 
 /* ########END MAIN ############ */
@@ -428,6 +474,32 @@ a {
 }
 .icons-list-sites-border{
     border: 1px solid #eeeeee;
+}
+.join-us {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #fff;
+	padding-top: 12px;
+	padding-bottom: 20px;
+}
+
+.contact-us-wrapper {
+	padding-left: 70px;
+}
+
+.grey-circle {
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.social-padding:not(:last-child) {
+	padding-right: 10px;
+}
+
+.white-icon {
+	fill: #fff;
 }
 
 .modal-btn:focus,
