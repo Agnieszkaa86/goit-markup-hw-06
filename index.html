@@ -55,13 +55,13 @@
           
      </header>   
     
-        <main>
+        <main> 
             <section class="section-hero">
                 <div class="main-container">
                     <section class="section-btn">
                         <h1 class="btn">Efektywne rozwiązania
                         dla waszego biznesu</h1>
-                        <button class="modal-btn-order"type="button">
+                        <button class="modal-btn-order"type="button" data-modal-open>
                             Zamów usługę
                         </button>
                     </section>
@@ -420,7 +420,18 @@
                     </div>
         </div>
      </footer>
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button type= "button" class="close-btn" data-modal-close>
+                <svg class="close-btn-icon">
+                    <use href="images/sprite.svg#icon-cross"> </use>
+                </svg>
+                </button>
+            </div>
+        </div>
+
     </div>
+    <script src="./js/modal.js"></script>
  </body>
 </html>
 
