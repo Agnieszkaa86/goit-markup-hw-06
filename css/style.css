@@ -149,6 +149,7 @@ a {
     transition: width 250ms, left 250ms;
 
 }
+
 .navigation-list-link:hover::after,
 .navigation-list-link:focus::after{
     width:100%;
