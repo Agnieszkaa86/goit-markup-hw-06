@@ -277,56 +277,50 @@ a {
 
 /* ########END HEADER ##########*/
 
-/* ########MAIN ############ */
+/* ########HERO ############ */
 
 
 
 .atributes-list{
-    
     display:flex;
     justify-content: space-between;
     align-content: center;
 
 }
 .atributes-icon-box {
-
     display: flex;
 	align-items: center;
 	justify-content: center;
 	height: 120px;
-	background-color:  #f5f4fa;
-	margin-bottom: 30px;
+    margin-bottom: 30px;
 	border-radius: 4px;
+    background-color:  #f5f4fa;
 }
-
 .atributes-icon {
 	width: 70px;
 	height: 70px;
 }
 .lorem{
-    font-size: var(--main-font);
-    font-style: bold;
-    color:#212121;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 14px;
     line-height: 1.142;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     padding-bottom: 10px;
 }
-
 .atributes-list-item:not(:last-child) {
     padding-right: 30px;
 }
-
 .atributes-list-item-description{
-    
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: #757575;
+    
 }
-
+    /*######## ABOUT US #######*/
+.about-us{
+    padding-top: 0px;
+}
 .about-img-list{
     display: flex;
 }
@@ -357,7 +351,6 @@ a {
 }
 
 .title-record{
-    
     font-style: bold;
     font-weight: 700;
     font-size: 36px;
@@ -366,9 +359,8 @@ a {
     letter-spacing: 0.03em;
     color: #212121;
     padding-bottom: 50px;
-
 }
-
+/* ######### OUR TEAM #####*/
 
 .our-team {
 	background-color: #f5f4fa;
@@ -439,8 +431,6 @@ a {
     height: 20px;
 }
 /* ########OUR CLIENTS #########*/
-
-
 
 .our-clients-list{
     display:flex;
@@ -644,6 +634,7 @@ a {
 
 /* ########END FOOTER ###########*/
 
+/* #########BACKDROP #########*/
 
 .backdrop{
     position: fixed;
@@ -835,6 +826,9 @@ a {
     margin-top: 20px;
     margin-bottom: 40px;
 }
+
+/* ###########PORTFOLIO #########*/
+/*######## MENU#########*/
 .menu{   
     padding-top: 0px;
 }
@@ -849,6 +843,7 @@ a {
     margin-right:8px;
     padding-bottom: 34px;
 }
+/* ##########PHOTO-LIST #######*/
 .photo-list{
     display: flex;
     flex-wrap: wrap;
