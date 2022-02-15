@@ -19,10 +19,11 @@
         <header class="header">
             <div class="container">
                 <nav class="navigation">
-                    <a class="navigation-logo link" href="portfolio.html" rel="home"><span class="navigation-logo-first">Web</span><span class="navigation-logo-second-a1">Studio</span></a>
+                    <a class="navigation-logo link" href="portfolio.html" rel="home"><span class="navigation-logo-first">Web</span>
+                        <span class="navigation-logo-second-a1">Studio</span></a>
                     <ul class="navigation-list list">
                         <li class="navigation-list-item">
-                            <a class="navigation-list-link-blue link" href="#">Agencja</a>
+                            <a class="navigation-list-link-blue link" href="index.html">Agencja</a>
                            </li>
                         <li class="navigation-list-item">
                             <a class="navigation-list-link link"  href="portfolio.html">Portfolio</a></li>
@@ -420,9 +421,9 @@
                     </div>
                     <div class="sign-up">
                         <p class="sign-up-text">ZAPISZ SIĘ DO NEWSLETTERA</p>
-                        <form action="#" class="sign-up-form">
+                        <form class="sign-up-form" action="#" name="signup-form" autocopmplete="on">
                             <label for="user-email">
-                                <input type="text" name="adress-email" id="user-email" class="sign-up-form-input" placeholder="E-mail"  required=""/>
+                                <input type="text" class="sign-up-form-input"name="adress-email" id="user-email" placeholder="E-mail" required/>
                            </label>
                                 <button type="submit" class="sign-up-btn">
                                 Zapisz się
@@ -442,11 +443,11 @@
                 </svg>
                 </button>
                 <h2 class="modal-form-header">Zostaw swoje dane w formularzu poniżej</h2>
-               <form action="#"class="modal-form">
-                    <label class="modal-form-field">
+               <form class="modal-form" action="#" name="backdrop-form" autocomplete="on">
+                    <label class="modal-form-field" >
                         Imię
                         <span class="modal-form-input-wrapper">
-                            <input type="text"name="user-name" class="modal-form-input"  required="" >
+                            <input type="text" class="modal-form-input" name="user-name" required >
                             <svg class="modal-form-icon">
                                 <use href="images/sprite.svg#icon-name"></use>
                             </svg>
@@ -455,7 +456,7 @@
                     <label class="modal-form-field">
                         Telefon
                         <span class="modal-form-input-wrapper">
-                            <input type="tel"class="modal-form-input"  required="" >
+                            <input type="tel"class="modal-form-input" required>
                             <svg class="modal-form-icon">
                                 <use href="images/sprite.svg#icon-phone"></use>
                             </svg>
@@ -464,7 +465,7 @@
                     <label class="modal-form-field">
                         Email
                         <span class="modal-form-input-wrapper">
-                            <input type="email"class="modal-form-input" required="" >
+                            <input type="email"class="modal-form-input" required>
                             <svg class="modal-form-icon">
                                 <use href="images/sprite.svg#icon-envelope2"></use>
                             </svg>
@@ -475,7 +476,7 @@
                         <textarea class="modal-form-message" name="user-message" placeholder="Wprowadź tekst"></textarea> 
                     </label> 
                         <span class="modal-form-input-wrapper"></span>
-                    <input type="checkbox" class="modal-form-policy visually-hidden" id="user-policy" value="accept-policy"  required ="">
+                    <input type="checkbox" class="modal-form-policy visually-hidden" id="user-policy" value="accept-policy"  required>
                     <label for="user-policy" class="modal-form-policy-text">
                         Oświadczam iż akceptuję <a class="modal-form-link" href="#">Regulamin</a>
                          i 

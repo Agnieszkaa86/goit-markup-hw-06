@@ -146,7 +146,7 @@ a {
     background: var(--main-color);
     bottom: -32px;
     right: 0;
-    transition: width 250ms, left 250ms;
+    transition: width 250ms, left 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -157,6 +157,7 @@ a {
 }
 .navigation-list-link-blue{
     position: relative;
+    color: var(--main-color)
 }
 .navigation-list-link-blue::after{
     position: absolute;
@@ -167,7 +168,7 @@ a {
     background: var(--main-color);
     bottom: -32px;
     right: 0;
-    transition: width 250ms, left 250ms;
+    transition: width 250ms, left 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation-list-link-blue:focus::after{
     width:100%;
