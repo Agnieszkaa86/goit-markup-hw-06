@@ -59,18 +59,18 @@
      <main>
         <section class="menu section">
             <div class="container">
-                <ul class="menu-list list" >
-                    <li class="menu-list-item"><button class="modal-btn" type="button">Wszystkie</button></li>
-                    <li class="menu-list-item"><button class="modal-btn"  type="button">Strony</button></li>
-                    <li class="menu-list-item"><button class="modal-btn" type="button">Aplikacje</button></li>
-                    <li class="menu-list-item"><button class="modal-btn"  type="button">Dizajn</button></li>
-                    <li class="menu-list-item"><button class="modal-btn" type="button">Marketing</button></li>
+                <ul class="menu__list list" >
+                    <li class="menu__item"><button class="modal__btn" type="button">Wszystkie</button></li>
+                    <li class="menu__item"><button class="modal__btn"  type="button">Strony</button></li>
+                    <li class="menu__item"><button class="modal__btn" type="button">Aplikacje</button></li>
+                    <li class="menu__item"><button class="modal__btn"  type="button">Dizajn</button></li>
+                    <li class="menu__item"><button class="modal__btn" type="button">Marketing</button></li>
                 </ul>
                 
-                <ul class="photo-list list">
-                    <li class="photo-list-item">
-                       <div class="photo-catalog"> 
-                                <img class="photo-list-img"src="images/project1-1.jpg"
+                <ul class="photo__list list">
+                    <li class="photo__item">
+                       <div class="photo__catalog"> 
+                                <img class="photo__list--img"src="images/project1-1.jpg"
                                 alt="Technocrack"
                                 width="370"
                                 height="294"
@@ -84,9 +84,9 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="photo-list-sites-border">
-                            <p class="sites-name">Technocrack</p>
-                            <p class="sites-kind">Strona internetowa</p>
+                        <div class="photo--border">
+                            <p class="sites--name">Technocrack</p>
+                            <p class="sites--kind">Strona internetowa</p>
                         </div>
                     </li>
                     <li class="photo-list-item">
@@ -268,76 +268,76 @@
         </div>
     </section>
     </main>
+    
     <footer class="footer">
         <div class="container">
             <div class="address">
-                <a class="logo__link" href="portfolio.html" rel="home">Web<span class="logo__accent--light">Studio</span></a>
-                <address class="address">
-                    <ul class="address__second">
-                         <li class="address__item">
-                             <a class="address__street"href="###" >m.Warszawa, Aleje Jerozolimskie 21</a>
-                         </li>     
-      
-                        <li class="address__item">
-                            <a class="email__link link" href="malito:info@devstudio.com">info@devstudio.com</a>
-                        </li>
-                        <li class="address__item">
-                            <a class="phone-number__link link" href="tel:+48111111111">+48 111 111 111</a>
-                        </li>
-                    </ul> 
+                    <a class="logo__link" href="portfolio.html" rel="home">Web<span class="logo__accent--light">Studio</span></a>
+                    <address class="address">
+                        <ul class="address__second">
+                             <li class="address__item">
+                                 <a class="address__street"href="###">m.Warszawa, Aleje Jerozolimskie 21</a>
+                             </li>     
+          
+                            <li class="address__item">
+                                <a class="email__link link" href="malito:info@devstudio.com">info@devstudio.com</a>
+                            </li>
+                            <li class="address__item">
+                                <a class="phone-number__link link" href="tel:+48111111111">+48 111 111 111</a>
+                            </li>
+                        </ul> 
 
-                </address>
-            </div>
-                <div class="contact-us-content">
-                                <p class="join-us">DOŁĄCZ DO NAS</p>
-                        <ul class="socials-list list">
-                            <li class="socials-list-item-break">
-                                        <a class="socials-list-link-grey"href="#">
-                                            <svg class="socials-icon-white">
+                    </address>
+                </div>
+                <div class="contact-us">
+                                <p class="third__header">DOŁĄCZ DO NAS</p>
+                        <ul class="socials__list list">
+                            <li class="socials__item--break">
+                                        <a class="socials__link--dark link"href="#">
+                                            <svg class="socials--icon">
                                                 <use href="images/sprite.svg#icon-instagram"></use>
                                              </svg>
                                         </a>
                             </li>
-                            <li class="socials-list-item-break">
-                                        <a class="socials-list-link-grey"href="#">
-                                            <svg class="socials-icon-white">
+                            <li class="socials__item--break">
+                                        <a class="socials__link--dark link"href="#">
+                                            <svg class="socials--icon">
                                                 <use href="images/sprite.svg#icon-twitter"></use>
                                             </svg> 
                                         </a>
                             </li>
-                            <li class="socials-list-item-break">
-                                        <a class="socials-list-link-grey"href="#">
-                                            <svg class="socials-icon-white ">
+                            <li class="socials__item--break">
+                                        <a class="socials__link--dark link  "href="#">
+                                            <svg class="socials--icon">
                                                 <use href="images/sprite.svg#icon-facebook"></use>
                                             </svg>
                                         </a>
                             </li>
-                            <li class="socials-list-item-break">
-                                        <a class="socials-list-link-grey"href="#" >
-                                            <svg class="socials-icon-white">
+                            <li class="socials__item--break">
+                                        <a class="socials__link--dark link"href="#" >
+                                            <svg class="socials--icon">
                                                 <use href="images/sprite.svg#icon-linkedin2"></use>
                                             </svg>
                                         </a>
-                       
-                       
                             </li>
                         </ul>
-                </div>
-                <div class="sign-up">
-                    <p class="sign-up-text">ZAPISZ SIĘ DO NEWSLETTERA</p>
-                    <form action="#" class="sign-up-form">
-                        <label for="user-email">
-                            <input type="text" name="adress-email" id="user-email" class="sign-up-form-input" placeholder="E-mail"/>
-                       </label>
-                            <button type="submit" class="sign-up-btn">
-                            Zapisz się
-                            <svg class="sign-up-modal-form-icon">
-                                <use href="images/sprite.svg#icon-send"></use>
-                            </svg>
-                            </button>
-                    </form>   
-                </div>
-        </di>
+                    </div>
+                    <div class="sign-up">
+                        <p class="third__header">ZAPISZ SIĘ DO NEWSLETTERA</p>
+                        <form class="sign-up--form" action="#" name="signup-form" autocopmplete="on">
+                            <label for="user-email">
+                                <input type="text" class="sign-up__form--input"name="adress-email" id="user-email" placeholder="E-mail" required/>
+                           </label>
+                                <button type="submit" class="sign-up__btn">
+                                Zapisz się
+                                <svg class="sign-up--icon">
+                                    <use href="images/sprite.svg#icon-send"></use>
+                                </svg>
+                                </button>
+                        </form>   
+                    </div>
+        </div>
      </footer>
+    
     </body>
 </html>
