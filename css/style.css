@@ -51,24 +51,8 @@ a {
     text-decoration: none;
 }
 
-.list{
-    list-style: none;
-}
-.link{
-    text-decoration: none;
-}
 
-.container{
-    width: 1200px;
-    padding: 0 15px;
-    margin:0 auto;
-    
-}
 
-.section{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
 
 /* ########HEADER############*/
@@ -92,19 +76,7 @@ a {
     display: flex;
     align-items: center;
 }
-.logo__link{
 
-    margin-right: 93px;
-    padding-top: 24px;
-    padding-bottom: 25px;
-    font-family: var(--secondary-font);
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.192;
-    letter-spacing: 0.03em;
-    color: var(--main-color);
-}
 .navigation__item{
 
     margin-right: 46px;
@@ -243,24 +215,7 @@ a {
 
 
 }    
-.modal__btn--order{
-    display: flex;
-    background-color: var(--main-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-	border-radius: 4px;
-	font-weight: 700;
-    font-size: 16px;
-	line-height: 1.875;
-	align-items: center;
-    text-align: center;
-	letter-spacing: 0.06em;
-	color: var(--light-color);
-	cursor: pointer;
-    margin: 0 auto;
-    padding: 10px 41px;
-    border:none;
-    
-}
+
 .atributes__list{
     display:flex;
     justify-content: space-between;
@@ -335,16 +290,7 @@ a {
     background: rgba(47, 48, 58, 0.8);
 }
 
-.second__header{
-    font-style: bold;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.167;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--secondary-color);
-    padding-bottom: 50px;
-}
+
 /* ######### OUR TEAM #####*/
 
 .our-team {
@@ -378,7 +324,6 @@ a {
     padding-bottom: 10px;
 
 }
-
 .member--position{
 
     font-size: 16px;
@@ -387,29 +332,6 @@ a {
     letter-spacing: 0.03em;
     color: var(--acccent-color);
     padding-bottom: 30px;
-}
-.socials__list
-{
-    display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-bottom: 30px;
-}
-
-.socials__link {
-	display: flex;
-	width: 44px;
-	height: 44px;
-	border-radius: 50%;
-	padding: 12px;
-    align-items: center;
-	justify-content: center;
-    fill: var(--acccent-color); 
-}
-.socials__link:hover,
-.socials__link:focus{
-    background-color: var(--main-color);
-    fill: var(--light-color);
 }
 .socials--icon{
     width: 20px;
@@ -525,19 +447,6 @@ a {
     padding-bottom: 9px;
 
 }
-
-.third__header {
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 1.143;
-	letter-spacing: 0.03em;
-	text-transform: uppercase;
-	color:var(--light-color);
-	padding-top: 12px;
-	padding-bottom: 20px;
-
-}
-
 .contact-us{
     padding-left: 70px;
 }
@@ -565,10 +474,8 @@ a {
 .sign-up__form--input::placeholder{
    color: var(--light-color); 
 }
-.sign-up__btn{
-   
+.primary__btn--signup{
     position: relative;
-	padding-right: 76px;
     height: 50px;
     width: 200px;
     background-color: var(--main-color);
@@ -588,6 +495,7 @@ a {
     border:none;
     
 }
+
 .sign-up--icon{
     position: absolute;
     width: 24px;
@@ -622,15 +530,7 @@ a {
 
 /* #########BACKDROP #########*/
 
-.backdrop{
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background:  rgba(0, 0, 0, 0.2);
-    transition: all 1000ms  ease-in, opacity 1000ms ease-in, visibility 1000ms ease-in;
-}
+
 .modal{
     position: absolute;
     width:528px;
@@ -645,7 +545,7 @@ a {
     margin: auto;
 
 }
-.close--btn{
+.close__btn{
     position: absolute;
     top: 8px;
     right: 8px;
@@ -777,28 +677,15 @@ a {
    
 }
 
-.visually-hidden{
-    position: absolute !important;
-    clip: rect(1px 1px 1px 1px
-    );
-    clip: rect(1px 1px 1px 1px
-    );
-    top: 18px;
-    left: 14px;
-    padding: 0 !important;
-    border: 0 !important;
-    height: 1px !important;
-    width: 1px !important;
-    overflow: hidden;
-}
-.modal__form--btn{
+
+.primary__btn--send{
     display: block;
     width: 200px;
     align-items: center;
     justify-content: center;
     padding: 12px 20px;
     border: 1px solid var(--main-color);
-    border-radius: 25px;
+    border-radius: 4px;
     font-weight: 600;
     font-size: 12px;
     line-height: 1.333;
